@@ -1,0 +1,364 @@
+.bs4_modal:before, .bs4_modal > .modal-dialog {
+  top: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.bs4_modal_trigger:link, .bs4_modal_trigger:visited {
+  margin: 25px;
+  outline: 0;
+  color: #000;
+  text-shadow: none;
+  font-family: Arial;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  -webkit-font-smoothing: antialiased;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all .5s cubic-bezier(.22,.81,.01,.99);
+  transition: all .5s cubic-bezier(.22,.81,.01,.99);
+}
+
+.bs4_modal_trigger:active, .bs4_modal_trigger:hover {
+  outline: 0;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+}
+
+.bs4_modal {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.bs4_modal a:link, .bs4_modal a:visited {
+  text-decoration: none;
+}
+
+.bs4_modal:before {
+  width: 100%;
+  content: "";
+  height: 100%;
+  margin: auto;
+}
+
+.bs4_modal > .modal-dialog {
+  width: auto;
+  background: 0 0;
+}
+
+@media (min-width:768px) {
+  .bs4_modal > .modal-dialog {
+    margin: auto;
+  }
+}
+
+.bs4_modal > .modal-dialog > .modal-content {
+  outline: 0;
+  width: 100%;
+  border: none;
+  display: block!important;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: transparent;
+}
+
+a.bs4_sngl_cmrce_close:link, a.bs4_sngl_cmrce_close:visited {
+  top: 5px;
+  right: 5px;
+  width: 50px;
+  height: 25px;
+  z-index: 100;
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  position: absolute;
+  background: #f7f7f7;
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  text-transform: capitalize;
+}
+
+a.bs4_sngl_cmrce_close:active, a.bs4_sngl_cmrce_close:hover {
+  color: #fff;
+}
+
+.bs4_sngl_cmrce_close, .bs4_sngl_cmrce_txt > form > div > button, .bs4_sngl_cmrce_txt > form > div > input, .bs4_sngl_cmrce_txt > form > div > label, .bs4_sngl_cmrce_txt > form > div > select, .bs4_sngl_cmrce_txt > form > div > select > option, .bs4_sngl_cmrce_txt > h1, .bs4_sngl_cmrce_txt > h2, .bs4_sngl_cmrce_txt > p {
+  text-shadow: none;
+  font-family: Cairo,sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.bs4_sngl_cmrce_img > img {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.bs4_sngl_cmrce_txt > form > .bs4_form_color, .bs4_sngl_cmrce_txt > form > .bs4_form_num, .bs4_sngl_cmrce_txt > form > .bs4_form_size, .bs4_sngl_cmrce_txt > ul > li {
+  display: inline-block;
+}
+
+.bs4_size_sngl_cmrce > .modal-dialog > .modal-content .row {
+  margin: 0;
+}
+
+.bs4_size_sngl_cmrce > .modal-dialog > .modal-content .row > div {
+  padding: 0;
+}
+
+.bs4_sngl_cmrce_txt {
+  padding: 20px 20px 10px;
+}
+
+.bs4_sngl_cmrce_txt > h1 {
+  margin: 0;
+  width: 85%;
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.bs4_sngl_cmrce_txt > ul {
+  padding: 0;
+  margin: 10px 0;
+  list-style-type: none;
+}
+
+.bs4_sngl_cmrce_txt > h2 {
+  width: 110px;
+  height: 35px;
+  color: #fff;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: center;
+}
+
+.bs4_sngl_cmrce_txt > p {
+  color: #000;
+}
+
+.bs4_sngl_cmrce_txt > form {
+  margin: 20px 0;
+}
+
+.bs4_sngl_cmrce_txt > form > div > label {
+  color: #000;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.bs4_sngl_cmrce_txt > form > .bs4_form_num {
+  margin-right: 20px;
+}
+
+.bs4_sngl_cmrce_txt > form > .bs4_form_num > input {
+  width: 100px;
+  height: 40px;
+  color: #000;
+  font-size: 18px;
+  background: #f7f7f7;
+  display: block;
+  border: 1px solid #eaeaea;
+}
+
+.bs4_sngl_cmrce_txt > form > .bs4_form_num > input:focus {
+  outline: 0;
+}
+
+.bs4_sngl_cmrce_txt > form > .bs4_form_color > select, .bs4_sngl_cmrce_txt > form > .bs4_form_size > select {
+  width: 100px;
+  height: 40px;
+  color: #000;
+  background: #f7f7f7;
+  display: block;
+  text-transform: uppercase;
+  border: 1px solid #eaeaea;
+}
+
+.bs4_sngl_cmrce_txt > form > .bs4_form_color > select:focus, .bs4_sngl_cmrce_txt > form > .bs4_form_size > select:focus {
+  outline: 0;
+  background: #f7f7f7;
+  border: 1px solid #eaeaea;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bs4_size_sngl_cmrce > .modal-dialog > .modal-content {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media only screen and (max-width:480px) {
+  .bs4_size_sngl_cmrce > .modal-dialog {
+    height: 100%;
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .bs4_sngl_cmrce_txt > form > .bs4_form_color, .bs4_sngl_cmrce_txt > form > .bs4_form_num, .bs4_sngl_cmrce_txt > form > .bs4_form_size {
+    display: block;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .bs4_sngl_cmrce_txt > form > .bs4_form_num {
+    margin-right: 0;
+  }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+  .bs4_size_sngl_cmrce > .modal-dialog {
+    height: 98%;
+    max-width: 80%;
+  }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+  .bs4_sngl_cmrce_txt > form > .bs4_form_color, .bs4_sngl_cmrce_txt > form > .bs4_form_num, .bs4_sngl_cmrce_txt > form > .bs4_form_size {
+    display: block;
+  }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+  .bs4_sngl_cmrce_txt > form > .bs4_form_num {
+    margin-right: 0;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .bs4_size_sngl_cmrce > .modal-dialog {
+    height: 75%;
+    max-width: 98%;
+  }
+}
+
+@media (min-width:992px) and (max-width:1229px) {
+  .bs4_size_sngl_cmrce > .modal-dialog {
+    height: 75%;
+    max-width: 98%;
+  }
+}
+
+@media (min-width:1230px) {
+  .bs4_size_sngl_cmrce > .modal-dialog {
+    height: 63%;
+    max-width: 71%;
+  }
+}
+
+.bs4_blue > .modal-dialog > .modal-content .bs4_checkbox > div > input:checked + span, .bs4_blue > .modal-dialog > .modal-content .bs4_form_cmrce_btn > button, .bs4_blue > .modal-dialog > .modal-content .bs4_form_footer > ul > li > a:before, .bs4_blue > .modal-dialog > .modal-content .bs4_form_header > a:before, .bs4_blue > .modal-dialog > .modal-content .bs4_form_submit > button, .bs4_blue > .modal-dialog > .modal-content .bs4_prtflo_icons > a:hover, .bs4_blue > .modal-dialog > .modal-content .bs4_radio > div > input:checked + span, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_sc_content > a.bs4_sldr_sc_btn:before, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_sc_control .carousel-control-next:hover, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_sc_control .carousel-control-prev:hover, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_vid_control .carousel-control-next:hover, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_vid_control .carousel-control-prev:hover, .bs4_blue > .modal-dialog > .modal-content .bs4_subscribe_close > a:before, .bs4_blue > .modal-dialog > .modal-content .bs4_team_txt > a, .bs4_blue > .modal-dialog > .modal-content a.bs4_bnr_btn, .bs4_blue > .modal-dialog > .modal-content a.bs4_bnr_cl_btn:before, .bs4_blue > .modal-dialog > .modal-content a.bs4_sldr_cmrce_close:before, .bs4_blue > .modal-dialog > .modal-content a.bs4_sngl_cmrce_close:before, .bs4_blue > .modal-dialog > .modal-content a.bs4_sq_txt_close:before {
+  background: #4f8af0;
+}
+
+.bs4_blue > .modal-dialog > .modal-content .bs4_checkbox > div > input:checked + span, .bs4_blue > .modal-dialog > .modal-content .bs4_input_txt > input:focus, .bs4_blue > .modal-dialog > .modal-content .bs4_radio > div > input:checked + span, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_cmrce_indicators > .carousel-indicators .active, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_thumb_indicators > .carousel-indicators .active, .bs4_blue > .modal-dialog > .modal-content .bs4_textarea > textarea:focus, .bs4_blue > .modal-dialog > .modal-content a.bs4_sldr_cmrce_close:hover, .bs4_blue > .modal-dialog > .modal-content a.bs4_sngl_cmrce_close:hover {
+  border: 1px solid #4f8af0;
+}
+
+.bs4_blue > .modal-dialog > .modal-content .bs4_checkbox > label > a:hover, .bs4_blue > .modal-dialog > .modal-content .bs4_sldr_cmrce_txt > ul > li, .bs4_blue > .modal-dialog > .modal-content .bs4_sngl_cmrce_txt > ul > li {
+  color: #345ca0;
+}
+
+.bs4_blue > .modal-dialog > .modal-content .bs4_form_cmrce_btn > button:before, .bs4_blue > .modal-dialog > .modal-content .bs4_form_submit > button:before, .bs4_blue > .modal-dialog > .modal-content .bs4_sngl_cmrce_txt > h2, .bs4_blue > .modal-dialog > .modal-content .bs4_team_txt > a:before, .bs4_blue > .modal-dialog > .modal-content a.bs4_bnr_btn:before {
+  background: #345ca0;
+}
+
+.bs4_bg_white > .modal-dialog > .modal-content {
+  background: #fff;
+}
+
+.bs4_none_radius > .modal-dialog, .bs4_none_radius > .modal-dialog > .modal-content, .bs4_none_radius > .modal-dialog > .modal-content .bs4_checkbox > div > span, .bs4_none_radius > .modal-dialog > .modal-content .bs4_form_submit > button, .bs4_none_radius > .modal-dialog > .modal-content .bs4_form_submit > button:before, .bs4_none_radius > .modal-dialog > .modal-content .bs4_input_txt > input, .bs4_none_radius > .modal-dialog > .modal-content .bs4_radio > div > span, .bs4_none_radius > .modal-dialog > .modal-content .bs4_textarea > textarea, .bs4_none_radius > .modal-dialog > .modal-content a, .bs4_none_radius > .modal-dialog > .modal-content a:before {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+.bs4_bd_black:before {
+  background: #000;
+}
+
+.bs4_bd_semi_trnsp:before {
+  opacity: .5;
+}
+
+.bs4_shadow_none > .modal-dialog > .modal-content {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.bs4_center > .modal-dialog {
+  margin: auto;
+}
+
+.modal.fade.bs4_animate .modal-dialog, .modal.show.bs4_animate .modal-dialog {
+  -webkit-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.modal.fade.bs4FadeInDown .modal-dialog {
+  -webkit-animation-name: bs4FadeOutDown;
+  animation-name: bs4FadeOutDown;
+}
+
+.modal.fade.bs4_easeOutQuint .modal-dialog {
+  -webkit-animation-timing-function: cubic-bezier(.23,1,.32,1);
+  animation-timing-function: cubic-bezier(.23,1,.32,1);
+}
+
+.modal.fade.bs4_duration_md .modal-dialog {
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-transition-duration: .7s;
+  transition-duration: .7s;
+}
+
+.bs4_btn_x_in_shtr, .bs4_btn_x_in_shtr:active, .bs4_btn_x_out_shtr, .bs4_btn_x_out_shtr:active, .bs4_btn_y_in_shtr, .bs4_btn_y_in_shtr:active, .bs4_btn_y_out_shtr, .bs4_btn_y_out_shtr:active {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: all .5s cubic-bezier(.22,.81,.01,.99);
+  transition: all .5s cubic-bezier(.22,.81,.01,.99);
+}
+
+.bs4_btn_x_in_shtr:before, .bs4_btn_x_out_shtr:before, .bs4_btn_y_in_shtr:before, .bs4_btn_y_out_shtr:before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  -webkit-transition: all .5s cubic-bezier(.22,.81,.01,.99);
+  transition: all .5s cubic-bezier(.22,.81,.01,.99);
+}
+
+.bs4_btn_x_out_shtr:before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+.bs4_btn_x_out_shtr:active:before, .bs4_btn_x_out_shtr:hover:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+

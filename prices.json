@@ -1,0 +1,148 @@
+{
+  "tnt": {
+    "price": 20,
+    "amount": 2,
+    "limit": 1728,
+    "img": "assets/img/Shop/tnt.png"
+  },
+  "leather": {
+    "price": 17,
+    "amount": 3,
+    "limit": 1728
+  },
+  "nether_wart": {
+    "price": 25,
+    "amount": 4,
+    "limit": 1728
+  },
+  "nether_star": {
+    "price": 95,
+    "amount": 1,
+    "limit": 100
+  },
+  "slime_ball": {
+    "price": 18,
+    "amount": 5,
+    "limit": 1728
+  },
+  "chorus_fruit": {
+    "price": 70,
+    "amount": 3,
+    "limit": 1728
+  },
+  "experience_bottle": {
+    "price": 24,
+    "amount": 4,
+    "limit": 1728
+  },
+  "totem": {
+    "price": 190,
+    "amount": 1,
+    "limit": 100
+  },
+  "spawner_of_zombie": {
+    "price": 200,
+    "amount": 1,
+    "limit": 16
+  },
+  "spawner_of_drowned": {
+    "price": 650,
+    "amount": 1,
+    "limit": 16
+  },
+  "blazerod": {
+    "price": 20,
+    "amount": 3,
+    "limit": 1728
+  },
+  "spawner_of_skeleton": {
+    "price": 400,
+    "amount": 1,
+    "limit": 16
+  },
+  "spawner_of_stray": {
+    "price": 600,
+    "amount": 1,
+    "limit": 16
+  },
+  "spawner_of_slime": {
+    "price": 1800,
+    "amount": 1,
+    "limit": 16
+  },
+  "spawner_of_cave_spider": {
+    "price": 150,
+    "amount": 1,
+    "limit": 16
+  },
+  "spawner_of_spider": {
+    "price": 175,
+    "amount": 1,
+    "limit": 16
+  },
+  "spawner_of_pig": {
+    "price": 100,
+    "amount": 1,
+    "limit": 16
+  },
+  "gunpowder": {
+    "price": 9,
+    "amount": 3,
+    "limit": 1728
+  },
+  "sugarcane": {
+    "price": 7,
+    "amount": 4,
+    "limit": 1728
+  },
+  "elytra": {
+    "price": 200,
+    "amount": 1,
+    "limit": 100
+  },
+  "firework": {
+    "price": 15,
+    "amount": 1,
+    "limit": 1728
+  },
+  "gold_ore": {
+    "price": 10,
+    "amount": 4,
+    "limit": 1728
+  },
+  "sponge": {
+    "price": 40,
+    "amount": 8,
+    "limit": 1728
+  },
+  "glowstone": {
+    "price": 10,
+    "amount": 2,
+    "limit": 1728
+  },
+  "watermellon": {
+    "price": 18,
+    "amount": 4,
+    "limit": 1728
+  },
+  "hero": {
+    "price": 90,
+    "amount": 1,
+    "limit": 1
+  },
+  "warlord": {
+    "price": 400,
+    "amount": 1,
+    "limit": 1
+  },
+  "eternal": {
+    "price": 900,
+    "amount": 1,
+    "limit": 1
+  },
+  "eternal_plus": {
+    "price": 4900,
+    "amount": 1,
+    "limit": 1
+  }
+}

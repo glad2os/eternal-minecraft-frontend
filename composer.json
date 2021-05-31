@@ -1,0 +1,4 @@
+{
+  "require":{"unitpay/php-sdk":"dev-master",
+    "vlucas/phpdotenv": "^5.3"}
+}
