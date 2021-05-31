@@ -102,7 +102,7 @@
   },
   "firework": {
     "price": 15,
-    "amount": 1,
+    "amount": 4,
     "limit": 1728
   },
   "gold_ore": {
